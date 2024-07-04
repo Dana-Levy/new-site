@@ -13,14 +13,14 @@ function App() {
             </div>
             <div className={styles.content}>
                 <h1 className={styles.title}>The Journey of Coffee</h1>
-                <p className={styles.p}>29.07.1988</p>
+                <p className={styles.date}>29.07.1988</p>
                 <p className={Classnames(styles, styles.p)}>
                     Uncover the fascinating journey of coffee from bean to brew. Explore the
                     processes of harvesting, roasting, and brewing that create the diverse flavors
                     and aromas in every cup. Perfect for both casual drinkers and coffee
                     enthusiasts.
                 </p>
-                <p className={styles.p}>677 saves</p>
+                <p className={styles.saves}>677 saves</p>
             </div>
         </div>
     );
