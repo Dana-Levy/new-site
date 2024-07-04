@@ -14,7 +14,7 @@ function App() {
             <div className={styles.content}>
                 <h1 className={styles.title}>The Journey of Coffee</h1>
                 <p className={styles.date}>29.07.1988</p>
-                <p className={Classnames(styles, styles.p)}>
+                <p className={Classnames(styles, styles.description)}>
                     Uncover the fascinating journey of coffee from bean to brew. Explore the
                     processes of harvesting, roasting, and brewing that create the diverse flavors
                     and aromas in every cup. Perfect for both casual drinkers and coffee
