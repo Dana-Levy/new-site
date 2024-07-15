@@ -12,13 +12,11 @@ export interface CardProps {
 export const Card = ({ className }: CardProps) => {
     return (
         <div className={styles.root}>
-            <div>
-                <img
-                    src="https://images.unsplash.com/photo-1537868525725-76f36c3363c6?q=80&amp;w=3540&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt=""
-                    className={styles.image}
-                />
-            </div>
+            <img
+                src="https://images.unsplash.com/photo-1537868525725-76f36c3363c6?q=80&amp;w=3540&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                className={styles.image}
+            />
             <div className={styles.content}>
                 <h1 className={styles.title}>The Journey of Coffee</h1>
                 <p className={styles.date}>29.07.1988</p>
