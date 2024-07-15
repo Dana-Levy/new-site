@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import styles from './card.module.scss';
+import App_module from '../../App.module.scss';
 
 export interface CardProps {
     className?: string;
@@ -19,7 +20,7 @@ export const Card = ({ className }: CardProps) => {
             />
             <div className={styles.content}>
                 <h1 className={styles.title}>The Journey of Coffee</h1>
-                <p>29.07.1988</p>
+                <p className={App_module.date}>29.07.1988</p>
                 <p>
                     Uncover the fascinating journey of coffee from bean to brew. Explore the
                     processes of harvesting, roasting, and brewing that create the diverse flavors
@@ -27,6 +28,7 @@ export const Card = ({ className }: CardProps) => {
                     enthusiasts.
                 </p>
             </div>
+            <button>Button</button>
         </div>
     );
 };

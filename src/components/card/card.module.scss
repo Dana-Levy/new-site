@@ -1,7 +1,8 @@
 .image {
   width: 100%;
   border-radius: 6px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
+  padding-top: 12px;
 }
 .content {
   text-align: start;
@@ -36,14 +37,15 @@
   flex-direction: column;
   row-gap: 12px;
   border-radius: 12px;
-  color: #ff0000;
+  color: #000000;
   font-weight: 400;
   line-height: 1.5;
   font-family: Arial, sans-serif;
   &:hover {
-    background-color: #000000;
+    background-color: #f7f7f7;
   }
   padding-right: 15px;
   padding-left: 15px;
   column-gap: 12px;
+  padding-bottom: 15px;
 }
