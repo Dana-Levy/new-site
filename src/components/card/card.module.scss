@@ -35,9 +35,8 @@
 }
 .root {
   text-align: start;
-  border: 1px solid #ffffff;
+  border: 1px solid #1a1a1a;
   height: auto;
-  box-shadow: 3px 3px 2px rgb(0, 0, 0);
   opacity: 1;
   display: flex;
   flex-direction: column;
@@ -50,14 +49,6 @@
   &:hover {
     background-color: #000000;
   }
-  background-color: #141414;
-  background-image: none;
-  background-repeat: repeat;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
-  background-attachment: scroll;
-  background-origin: padding-box;
-  background-clip: border-box;
   padding-right: 15px;
   padding-left: 15px;
   column-gap: 12px;
