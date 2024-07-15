@@ -1,5 +1,6 @@
 import { Card } from './components/card/card';
 import App_module from './App.module.scss';
+
 function App() {
     return (
         <div>
